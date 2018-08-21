@@ -16,25 +16,25 @@ var maxTime = 20000;
 var input = '';
 
 // partial testcase
-// var testCodeArr = [];
-// for (var i = 8100 ; i <= 8300 ; i++) {
-// 	// case less than 65536
-// 	// include some zero width characters
-// 	testCodeArr.push(i);
-// }
-// for (var i = 65536 ; i <= 65736 ; i++) {
-// 	// case greater than 65536
-// 	// include some 2 width characters
-// 	testCodeArr.push(i);
-// }
-// for (var i = 0 ; i < testCodeArr.length ; i++) {
-// 	input += String.fromCodePoint(testCodeArr[i]);
-// }
+var testCodeArr = [];
+for (var i = 8100 ; i <= 8300 ; i++) {
+	// case less than 65536
+	// include some zero width characters
+	testCodeArr.push(i);
+}
+for (var i = 65536 ; i <= 65736 ; i++) {
+	// case greater than 65536
+	// include some 2 width characters
+	testCodeArr.push(i);
+}
+for (var i = 0 ; i < testCodeArr.length ; i++) {
+	input += String.fromCodePoint(testCodeArr[i]);
+}
 
 // full testcase
-for (var i = 0 ; i <= 0x10FFFF ; i++) {
-	input += String.fromCodePoint(i);
-}
+// for (var i = 0 ; i <= 0x10FFFF ; i++) {
+// 	input += String.fromCodePoint(i);
+// }
 
 var regexStr = Quinary2ZeroMap.join('|');
 var re = new RegExp(regexStr, 'g');

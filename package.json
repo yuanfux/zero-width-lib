@@ -1,5 +1,5 @@
 {
-  "name": "zero-wdith-lib",
+  "name": "zero-width-lib",
   "version": "1.0.0",
   "description": "A lib for zero width character utils",
   "main": "dist/zero-width-lib.js",

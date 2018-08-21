@@ -1,5 +1,3 @@
-const { performance } = require('perf_hooks');
-
 const zeroWidthNonJoiner = '‌';
 const zeroWidthJoiner = '‍';
 const zeroWidthSpace = '​';
