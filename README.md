@@ -1,15 +1,17 @@
 # zero-width-lib
 
 <p align="center">
-  <img width="200" height="200" src="https://user-images.githubusercontent.com/6414178/44472944-dd525880-a661-11e8-9c56-3e73395109c3.png">
+  <img width="150" height="150" src="https://user-images.githubusercontent.com/6414178/44472944-dd525880-a661-11e8-9c56-3e73395109c3.png">
 </p>
 
 ## What's zero-width-lib
 Zero-width-lib is a library for manipulating zero width characters (ZWC), which are non-printing and invisible chars.
-The common usage of ZWC includes fingerprinting confidential text, embedding hidden text and escaping from string matching (i.e. regex)...
-The lib is inspired by this great [medium article](https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66) and mainly got the following features.
 
-1. 😆support full width Unicode chars & cover full test case
+The common usage of ZWC includes fingerprinting confidential text, embedding hidden text and escaping from string matching (i.e. regex)...
+
+The lib is inspired by this great [medium article](https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66) and got the following features:
+
+1. 😆support full width Unicode chars & cover full test cases
 2. 0️⃣dependencies & small implementation (570 bytes)
 3. ⚡️performance considered
 4. 📦support CJS, ESM and UMD
