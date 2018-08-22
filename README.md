@@ -5,7 +5,9 @@
 </p>
 
 ## What's zero-width-lib
-zero-width-lib is a library for manipulating zero width characters (ZWC), which are non-printing and invisible chars.  The common usage of ZWC includes fingerprinting confidential text, embedding hidden text and escaping from string matching (i.e. regex)...The lib is inspired by this great [medium article](https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66) and mainly got the following features.
+Zero-width-lib is a library for manipulating zero width characters (ZWC), which are non-printing and invisible chars.
+The common usage of ZWC includes fingerprinting confidential text, embedding hidden text and escaping from string matching (i.e. regex)...
+The lib is inspired by this great [medium article](https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66) and mainly got the following features.
 
 1. 😆support full width Unicode chars & cover full test case
 2. 0️⃣dependencies & small implementation (570 bytes)
@@ -30,6 +32,7 @@ import * as z from 'zero-width-lib';
 ```javascript
 // note * represents the invisible ZWC
 // U+ represents the Unicode for the character
+
 // 0. six different zwc
 const dict = z.zeroWidthDict;
 console.log(dict.zeroWidthSpace); // '*' U+200B
