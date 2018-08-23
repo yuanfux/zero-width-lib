@@ -23,6 +23,7 @@ npm install zero-width-lib
 ```
 
 ## Usage
+>  Besides ESM, CJS and UMD ways of importing are also supported
 ```javascript
 // import one method at a time
 import { encode } from 'zero-width-lib';

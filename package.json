@@ -13,7 +13,9 @@
   },
   "author": "Yuan Fu <fuyuanx@gmail.com>",
   "files": [
-    "dist/",
+    "dist/zero-width-lib.js",
+    "dist/zero-width-lib.m.js",
+    "dist/zero-width-lib.umd.js",
     "README.md"
   ],
   "repository": {
