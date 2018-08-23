@@ -1,6 +1,6 @@
 {
   "name": "zero-width-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lib for zero width character utils",
   "main": "dist/zero-width-lib.js",
   "umd:main": "dist/zero-width-lib.umd.js",
@@ -11,7 +11,20 @@
     "dev": "microbundle watch",
     "test": "mocha"
   },
-  "author": "Yuan Fu",
+  "author": "Yuan Fu <fuyuanx@gmail.com>",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanfux/zero-width-lib.git"
+  },
+  "keywords": [
+    "zero",
+    "width",
+    "zero width"
+  ],
   "license": "MIT",
   "devDependencies": {
     "microbundle": "^0.6.0",
