@@ -1,14 +1,15 @@
 {
   "name": "zero-width-lib",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lib for zero width character utils",
   "main": "dist/zero-width-lib.js",
   "umd:main": "dist/zero-width-lib.umd.js",
   "module": "dist/zero-width-lib.m.js",
   "source": "src/zero-width-lib.js",
   "scripts": {
-    "build": "microbundle",
+    "build": "npm run clean && microbundle --sourcemap false",
     "dev": "microbundle watch",
+    "clean": "rm -r dist",
     "test": "mocha"
   },
   "author": "Yuan Fu <fuyuanx@gmail.com>",
