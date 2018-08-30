@@ -11,9 +11,9 @@ The common usage of ZWC includes fingerprinting confidential text, embedding hid
 
 The lib is inspired by this great [medium article](https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66) and got the following features:
 
-1. 😆support full width Unicode chars & cover full test cases
-2. 0️⃣dependencies & small implementation (570 bytes)
-3. ⚡️performance considered
+1. 💯stable & cover full test cases
+2. 😆support full width Unicode chars 
+3. ⚡️dependencies & performance considered
 4. 📦support CJS, ESM and UMD
 
 
