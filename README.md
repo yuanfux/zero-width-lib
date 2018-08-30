@@ -1,5 +1,10 @@
 # zero-width-lib
 
+[![Travis (.org)](https://img.shields.io/travis/:user/:repo.svg)](https://github.com/yuanfux/zero-width-lib)
+
+[![npm](https://img.shields.io/npm/v/:package.svg)](https://github.com/yuanfux/zero-width-lib)
+
+
 <p align="center">
   <img width="150" height="150" src="https://user-images.githubusercontent.com/6414178/44472944-dd525880-a661-11e8-9c56-3e73395109c3.png">
 </p>
