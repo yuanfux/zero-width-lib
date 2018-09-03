@@ -2,6 +2,7 @@
 
 [![Travis (.org)](https://img.shields.io/travis/yuanfux/zero-width-lib.svg)](https://img.shields.io/travis/yuanfux/zero-width-lib.svg)
 [![npm](https://img.shields.io/npm/v/zero-width-lib.svg)](https://img.shields.io/npm/v/zero-width-lib.svg)
+[![npm](https://img.shields.io/npm/dt/zero-width-lib.svg)]( https://img.shields.io/npm/dt/zero-width-lib.svg)
 
 
 
