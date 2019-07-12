@@ -1,10 +1,8 @@
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
-import { uglify } from 'rollup-plugin-uglify';
+import { terser } from "rollup-plugin-terser";
 import pkg from './package.json';
 import { basename } from 'path';
-import { minify } from 'uglify-es';
-
 const isDev = process.env.NODE_ENV === 'development';
 
 export default {
@@ -32,7 +30,7 @@ export default {
     babel({
       include: 'src/**'
     }),
-    uglify({}, minify)
+    terser()
   ],
   watch: {
   	exclude: 'node_modules/**'
