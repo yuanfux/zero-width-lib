@@ -1,6 +1,6 @@
 {
   "name": "zero-width-lib",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A lib for zero width character utils",
   "main": "dist/zero-width-lib.js",
   "umd:main": "dist/zero-width-lib.umd.js",
